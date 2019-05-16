@@ -2,11 +2,13 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 body {
 	box-sizing: border-box;
 	width: 100vw;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
 }
 /*css thanh nav*/
 .head{
@@ -115,7 +117,7 @@ input::-webkit-input-placeholder { color:#aaa; }
 
 }
 .sodoxe-choncho select{
-	margin: 5px;
+	margin: 5px 10px;
 }
 .sodoxe-choncho span{
 	float: right;
